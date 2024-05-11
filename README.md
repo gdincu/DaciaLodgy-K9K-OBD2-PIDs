@@ -520,7 +520,7 @@ Please refer to https://en.wikipedia.org/wiki/OBD-II_PIDs for more details on th
   <td class="xl70" width="152" style="border-top:none;border-left:none;width:114pt">Distance
   traveled with malfunction indicator lamp (MIL) on</td>
   <td class="xl70" width="64" style="border-top:none;border-left:none;width:48pt">-</td>
-  <td class="xl70" width="64" style="border-top:none;border-left:none;width:48pt">-</td>
+  <td class="xl70" width="64" style="border-top:none;border-left:none;width:48pt">Fuel Rail Gauge Pressure (diesel, or gasoline direct injection)</td>
   <td class="xl70" width="64" style="border-top:none;border-left:none;width:48pt">-</td>
   <td class="xl70" width="75" style="border-top:none;border-left:none;width:56pt">-</td>
   <td class="xl70" width="64" style="border-top:none;border-left:none;width:48pt">-</td>
@@ -529,8 +529,7 @@ Please refer to https://en.wikipedia.org/wiki/OBD-II_PIDs for more details on th
   <td class="xl70" width="64" style="border-top:none;border-left:none;width:48pt">-</td>
   <td class="xl70" width="64" style="border-top:none;border-left:none;width:48pt">-</td>
   <td class="xl70" width="64" style="border-top:none;border-left:none;width:48pt">-</td>
-  <td class="xl70" width="72" style="border-top:none;border-left:none;width:54pt">Commanded
-  EGR</td>
+  <td class="xl70" width="72" style="border-top:none;border-left:none;width:54pt">-</td>
   <td class="xl70" width="64" style="border-top:none;border-left:none;width:48pt">-</td>
   <td class="xl70" width="64" style="border-top:none;border-left:none;width:48pt">-</td>
   <td class="xl70" width="76" style="border-top:none;border-left:none;width:57pt">-</td>
