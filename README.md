@@ -865,4 +865,4 @@ Please refer to https://en.wikipedia.org/wiki/OBD-II_PIDs for more details on th
     
 <h2> Custom PIDs </h2>
 
-<a href="https://github.com/gdincu/HyundaiElantraCN7-OBD2-PIDs/blob/main/CN7.csv">These</a> PIDs are setup to be used via the Torque Pro app and therefore some of the formulas are based on the <a href="https://wiki.torque-bhp.com/view/Equations">Torque Wiki</a>.
+<a href="https://github.com/gdincu/DaciaLodgy-K9K-OBD2-PIDs/blob/main/K9K.csv">These</a> PIDs are setup to be used via the Torque Pro app and therefore some of the formulas are based on the <a href="https://wiki.torque-bhp.com/view/Equations">Torque Wiki</a>.
