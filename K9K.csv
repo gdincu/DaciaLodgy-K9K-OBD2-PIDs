@@ -8,6 +8,7 @@
 "DPF_Temperature_Before_DPF","DPF_TempBeforeDPF","222432","(1.0*((A*256+B)-2730))/10","0","0","°C","7E0","","",1,0
 "DPF_Time_Since_Last_Regeneration","DPF_TimeSinceLastRegen","222488","(1.0*(A*256+B))/3600","0","0","h","7E0","","",1,0
 "DPF_Time_Since_Last_Regeneration","DPF_TimeSinceLastRegen","222488","(1.0*(A*256+B))/3600","0","0","h","7E0","","",1,0
+"ECM_Ambient_Air_Temp","OutsideTemp","22200c","C-40",-40,215,"C","743","","",1,60000
 "ECM_Coolant_Pressure","Coolant_Pressure","22222A","(1.0*((A*256+B)))/10","0","0","bar","7E0","","",1,0
 "ECM_Coolant_Temperature","Coolant_Temp","222001","(1.0*((A*256+B)-2730))/10","0","0","C","7E0","","",1,0
 "ECM_Coolant_Temperature_Sensor_Voltage","Coolant_Temp_Sensor_V","22FD8B","(1.0*((A*256+B)))/6553.6","0","0","V","7E0","","",1,0
@@ -15,11 +16,11 @@
 "ECM_Fuel Temperature","Fuel_Temp","222008","(1.0*((A*256+B)-2730))/10","0","0","C","7E0","","",1,0
 "ECM_Fuel_Temperature_Sensor_Voltage","Fuel_Temp_Sensor_V","22FD89","(1.0*((A*256+B)))/6553.6","0","0","V","7E0","","",1,0
 "ECM_Fuel_Level_Sensor_Resistor","FuelLevelResistor","222005","(A*256+B)","5","350","Ohm","743","","",1,0
-"ECM_Fuel_Level","FuelLevel","222203","A*2.56+B*0.010","0","100","%","743","","",1,0
+"ECM_Fuel_Level_LT","FuelLevel_LT","222203","(A*2.56+B*0.01)/50*100","0","100","%","743","","",1,0
+"ECM_Fuel_Level_ST","FuelLevel_ST","222201","(A*2.56+B*0.01)/50*100","0","100","%","743","","",1,0
 "ECM_Speed_Limiter_State","SpeedLimit","22204C","LOOKUP((A&7):0:2=1)","0","1","","7E0","","",1,0
 "HVAC_AC_State","AC","22201E","{A:0}","0","1","","","","",1,0
 "HVAC_Air_Supply_Flow","AC_Flow","222413","(1.0*((A*256+B)))/10","0","0","mg/cp","7E0","","",1,0
-"SAE_Ambient_Air_Temp","OutsideTemp","22200c","C-40",-40,215,"C","743","","",1,60000
 "Transmission_Clutch_Position","Clutch","22222F","{A:0}","0","1","","7E0","","",1,0
 "Transmission_Neutral_State","Neutral","22222E","(A&3)","0","1","","7E0","","",1,0
 "Transmission_Reverse_Engaged","Reverse","222079","{A:1}","0","0","","7E0","","",1,0
