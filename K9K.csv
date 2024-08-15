@@ -1,8 +1,9 @@
 "Name", "ShortName", "ModeAndPID", "Equation", "Min Value", "Max Value", "Units", "Header", "startDiagnostic", "stopDiagnostic", "scale","minimumRefreshDelayMillis"
 "ABS_Brake_Pedal_State","Brake","22200F","(A&15)","0","2","","7E0","","",1,0
 "ABS_Parking_Brake_State","Parking_Brake","22222B","{A:0}","0","1","","7E0","","",1,0
+"BMS_Battery_Voltage","Battery_Voltage","222006","(A*256+B)/1000","0","0","V","743","","",1,0
 "Cluster_Total_Distance_Traveled","Odometer","222006","(A*65536+B*256+C)","0","0","km","7E0","","",1,0
-"Custom_Instant_Fuel_Consumption","Instant_Consumption","","AVG(4:(LOOKUP([0D]:100/[ff1203]:0~5=[5E])))",0,100,"","","","",1,0
+"Custom_Instant_Fuel_Consumption","Instant_Consumption","","AVG(10:(LOOKUP([0D]:100/[ff1203]:0~30=0)))",0,100,"","","","",1,0
 "DPF_Differential_Pressure","DPF_Diff_Pressure","222542","(A*256+B)-32768","0","0","mbar","7E0","","",1,0
 "DPF_Passage_Of_Oxygen_ThroughTheDPF","DPF_OxygenVolume","222447","(1.0*((A*256+B)))/10","0","0","m3/h","7E0","","",1,0
 "DPF_Temperature_Before_DPF","DPF_TempBeforeDPF","222432","(1.0*((A*256+B)-2730))/10","0","0","°C","7E0","","",1,0
